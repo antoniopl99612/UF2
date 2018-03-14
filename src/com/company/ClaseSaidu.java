@@ -6,5 +6,5 @@ public class ClaseSaidu {
     String apellido;
     double edad;
     String email;
-
+    String Poblacion;
 }
