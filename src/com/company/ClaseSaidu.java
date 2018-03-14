@@ -1,5 +1,10 @@
 package com.company;
 
 public class ClaseSaidu {
-    // comentario
+
+    String nombre;
+    String apellido;
+    double edad;
+    String email;
+
 }
