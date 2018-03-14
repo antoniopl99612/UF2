@@ -1,6 +1,6 @@
 package com.company;
 
-public class ClaseSaidu {
+public class Registrar {
 
     String nombre;
     String apellido;
@@ -8,3 +8,7 @@ public class ClaseSaidu {
     String email;
     String Poblacion;
 }
+
+
+
+
