@@ -6,7 +6,7 @@ public class Acertijo {
 
 int respuesta;
 
-    void acertijo1 {
+    void acertijo1 (){
         System.out.println("-----------------------------\n" +
                 "Braintrainging :: Acertijo\n" +
                 "\n" +
