@@ -1,7 +1,8 @@
 package com.company.view;
 
 public class ViewNivel1 {
-void mostrar() {
+
+public void mostrar() {
     System.out.println("-----------------------------\n" +
             "Braintrainging :: Acertijo\n" +
             "\n" +
@@ -11,4 +12,5 @@ void mostrar() {
             "b) 64\n" +
             "c) 55\n");
     }
+
 }

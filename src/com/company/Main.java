@@ -8,8 +8,8 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        ViewNivel1 viewNivel1 = new ViewNivel1();
-        viewNivel1.
+        ViewNivel1 v1 = new ViewNivel1();
+        v1.mostrar();
     }
 
 }
