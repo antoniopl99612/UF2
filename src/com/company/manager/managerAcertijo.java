@@ -1,5 +1,8 @@
 package com.company.manager;
 
-public class managerAcertijo {
+import java.util.Scanner;
 
+public class managerAcertijo {
+Scanner scanner = new Scanner();
+scanner.respuesta;
 }
