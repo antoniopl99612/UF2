@@ -1,7 +1,8 @@
 package com.company.model;
 
 public class PasarNivel {
-    void comprobar (){
+    public void comprobar (){
+        boolean correcto = true;
         if ( correcto == false ){
 
                 System.out.println("incorrecto");
