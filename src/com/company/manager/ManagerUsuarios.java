@@ -19,8 +19,10 @@ public class ManagerUsuarios {
     public boolean  comprovarUsuario (String nombreusuario , String contraseña) {
 
         for (int i = 0; 1 < usuarios.length; i++) {
-            if (usuarios[i] != null && usuarios[i].nombreusuario.equals(nombreusuario) && usuarios[i].contraseña.equals(contraseña);
-            return true;
+            if (usuarios[i] != null && usuarios[i].nombreusuario.equals(nombreusuario) && usuarios[i].contraseña.equals(contraseña)){
+                return true;
+
+            }
         }
         return false;
     }
