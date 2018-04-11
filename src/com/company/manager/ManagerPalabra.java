@@ -1,7 +1,7 @@
 package com.company.manager;
 
-import com.company.model.Palabra;
+import com.company.model.Palabras;
 
 public class ManagerPalabra {
-    public Palabra[] palabras= new Palabra[30];
+    public Palabras[] palabras= new Palabras[30];
 }
