@@ -15,16 +15,17 @@ public class Main {
         String pregunta;
         String respuesta;
         boolean correcto;
-        ViewNivel1 v1 = new ViewNivel1();
-        ManagerAcertijo man = new ManagerAcertijo();
-        Nivel1 n1 = new Nivel1();
-        PasarNivel pnv = new PasarNivel();
-        Acertijo ac = new Acertijo();
+        int puntaje;
+        ViewNivel1 viewNivel1 = new ViewNivel1();
+        ManagerAcertijo managerAcertijo = new ManagerAcertijo();
+        Nivel1 nivel1 = new Nivel1();
+        PasarNivel pasarNivel = new PasarNivel();
+        Acertijo acertijo = new Acertijo();
 
-        v1.mostrar();
-        man.escaner();
-        n1.cierto();
-        pnv.comprobar();
+        viewNivel1.mostrar();
+        managerAcertijo.escaner();
+        nivel1.cierto();
+        pasarNivel.comprobar();
 
     }
 }

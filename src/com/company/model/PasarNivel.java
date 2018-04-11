@@ -1,14 +1,18 @@
 package com.company.model;
 
 public class PasarNivel {
-    public void comprobar (){
-        boolean correcto = true;
+    int puntaje = 0;
+    public int comprobar (){
+        Nivel1 nivel1 = new Nivel1();
+        boolean correcto = nivel1.correcto;
         if ( correcto == false ){
 
-                System.out.println("incorrecto");
+            puntaje = -1;
             }else {
-                System.out.println("correcto");
+            puntaje = +1;
 
         }
+
+        return puntaje;
     }
 }
