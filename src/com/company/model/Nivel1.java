@@ -4,17 +4,14 @@ import com.company.manager.ManagerAcertijo;
 
 public class Nivel1 {
 
-    ManagerAcertijo managerAcertijo = new ManagerAcertijo();
-    String respuesta = managerAcertijo.escaner();
-    boolean correcto = true;
-    public boolean cierto(){
-        if (respuesta == "a" || respuesta == "c"){
+    public void cierto(){
+        Acertijo acertijo = new Acertijo();
+        if (acertijo.respuesta == "a" || acertijo.respuesta == "c"){
             System.out.println("Incorrecto");
-            correcto = false;
-        }else if (respuesta == "b"){
+            acertijo.correcto = false;
+        }else if (acertijo.respuesta == "b"){
             System.out.println("Correcto");
-            correcto = true;
+            acertijo.correcto = true;
         }
-    return correcto;
     }
 }

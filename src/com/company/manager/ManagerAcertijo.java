@@ -1,13 +1,15 @@
 package com.company.manager;
 
+import com.company.model.Acertijo;
+
 import java.util.Scanner;
 
 public class ManagerAcertijo {
-    String respuesta;
-public String escaner() {
-        Scanner scanner = new Scanner(System.in);
-        respuesta = scanner.nextLine();
-        return respuesta;
-    }
 
+    public String escaner() {
+            Scanner scanner = new Scanner(System.in);
+            Acertijo acertijo = new Acertijo();
+            acertijo.respuesta = scanner.nextLine();
+        return acertijo.respuesta;
+    }
 }

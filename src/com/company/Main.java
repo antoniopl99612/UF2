@@ -12,10 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        String pregunta;
-        String respuesta;
-        boolean correcto;
-        int puntaje;
+
         ViewNivel1 viewNivel1 = new ViewNivel1();
         ManagerAcertijo managerAcertijo = new ManagerAcertijo();
         Nivel1 nivel1 = new Nivel1();
@@ -26,6 +23,6 @@ public class Main {
         managerAcertijo.escaner();
         nivel1.cierto();
         pasarNivel.comprobar();
-
+        System.out.println(acertijo.respuesta);
     }
 }

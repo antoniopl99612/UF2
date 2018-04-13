@@ -11,6 +11,6 @@ public void mostrar() {
             "a) 35\n" +
             "b) 64\n" +
             "c) 55\n");
-    }
 
+}
 }
