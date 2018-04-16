@@ -12,6 +12,10 @@ public class PasarNivel {
             acertijo.puntaje = +1;
 
         }
+
+        if (acertijo.puntaje == 0){
+            System.out.println("GAME OVER");
+        }
         System.out.println(acertijo.puntaje);
     }
 }

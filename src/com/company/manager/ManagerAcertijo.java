@@ -6,10 +6,11 @@ import java.util.Scanner;
 
 public class ManagerAcertijo {
 
-    public String escaner() {
-            Scanner scanner = new Scanner(System.in);
-            Acertijo acertijo = new Acertijo();
-            acertijo.respuesta = scanner.nextLine();
-        return acertijo.respuesta;
+    public void escaner() {
+
+        Scanner scanner = new Scanner(System.in);
+        Acertijo acertijo = new Acertijo();
+        acertijo.respuesta = scanner.nextLine();
+
     }
 }
