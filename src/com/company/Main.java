@@ -5,6 +5,7 @@ import com.company.model.Acertijo;
 import com.company.model.Nivel1;
 import com.company.model.PasarNivel;
 import com.company.view.ViewNivel1;
+import com.company.view.ViewNivel2;
 import com.company.view.ViewTitulo;
 
 public class Main {
@@ -18,6 +19,7 @@ public class Main {
         Nivel1 nivel1 = new Nivel1();
         PasarNivel pasarNivel = new PasarNivel();
         Acertijo acertijo = new Acertijo();
+        ViewNivel2 v = new ViewNivel2();
 
         viewTitulo.mostrar();
         viewNivel1.mostrar();
@@ -25,5 +27,11 @@ public class Main {
         nivel1.cierto();
         pasarNivel.comprobar();
         System.out.println(acertijo.respuesta);
+        if (acertijo.puntaje <= 0){
+            System.out.println("GAME OVER");
+        } else {
+            v.mostrar();
+        }
+        System.out.println(acertijo.puntaje);
     }
 }
