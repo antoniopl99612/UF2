@@ -6,6 +6,7 @@ public class ViewTitulo {
         System.out.println("------------------------------------------------------\n" +
                 "              Braintrainging - Acertijo               \n" +
                 "\n" +
+                "             BIENVENIDO AL JUEGO ACERTIJO\n" +
                 "------------------------------------------------------\n");
 
     }

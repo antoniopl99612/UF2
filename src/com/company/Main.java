@@ -24,7 +24,7 @@ public class Main {
         MostrarPuntuación mostrarPuntuación = new MostrarPuntuación();
 
 
-        mostrarPuntuación.scoreActual();
+        mostrarPuntuación.scoreActual(); //muestra la score actual para el usuario registrado en el juego Acertijo
 
         viewTitulo.mostrar();
         viewNivel1.mostrar();
