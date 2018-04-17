@@ -1,9 +1,10 @@
 package com.company;
 
 import com.company.manager.ManagerAcertijo;
-import com.company.model.Acertijo;
-import com.company.model.Nivel1;
-import com.company.model.PasarNivel;
+import com.company.manager.Nivel1;
+import com.company.manager.Nivel2;
+import com.company.manager.PasarNivel;
+import com.company.view.MostrarPuntuación;
 import com.company.view.ViewNivel1;
 import com.company.view.ViewNivel2;
 import com.company.view.ViewTitulo;
@@ -18,20 +19,25 @@ public class Main {
         ManagerAcertijo managerAcertijo = new ManagerAcertijo();
         Nivel1 nivel1 = new Nivel1();
         PasarNivel pasarNivel = new PasarNivel();
-        Acertijo acertijo = new Acertijo();
-        ViewNivel2 v = new ViewNivel2();
+        ViewNivel2 viewNivel2 = new ViewNivel2();
+        Nivel2 nivel2 = new Nivel2();
+        MostrarPuntuación mostrarPuntuación = new MostrarPuntuación();
+
+
+        mostrarPuntuación.scoreActual();
 
         viewTitulo.mostrar();
         viewNivel1.mostrar();
-        managerAcertijo.escaner();
+        managerAcertijo.escaner1();
         nivel1.cierto();
         pasarNivel.comprobar();
-        System.out.println(acertijo.respuesta);
-        if (acertijo.puntaje <= 0){
-            System.out.println("GAME OVER");
-        } else {
-            v.mostrar();
-        }
-        System.out.println(acertijo.puntaje);
+
+        viewTitulo.mostrar();
+        viewNivel2.mostrar();
+        managerAcertijo.escaner2();
+        nivel2.cierto();
+        pasarNivel.comprobar();
+
+
     }
 }
