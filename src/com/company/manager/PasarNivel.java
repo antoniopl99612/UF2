@@ -12,7 +12,7 @@ public class PasarNivel {
         FinDelJuego finDelJuego = new FinDelJuego();
         MostrarPuntuación mostrarPuntuación = new MostrarPuntuación();
 
-        if (score.puntaje <= 0){
+        if (score.puntaje < 0){
             finDelJuego.gameOver();
         } else {
             mostrarPuntuación.scoreActual();
