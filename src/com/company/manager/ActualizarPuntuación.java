@@ -1,6 +1,7 @@
 package com.company.manager;
 
 import com.company.model.Acertijo1;
+import com.company.model.Acertijo2;
 import com.company.model.Score;
 
 public class ActualizarPuntuación {
@@ -15,10 +16,10 @@ public class ActualizarPuntuación {
         }
     }
     public void actualizarNivel2(){
-        Acertijo1 acertijo1 = new Acertijo1();
-        if (acertijo1.correcto = false){
+        Acertijo2 acertijo2 = new Acertijo2();
+        if (acertijo2.correcto = false){
             score.puntaje -= 1;
-        }else if (acertijo1.correcto = true){
+        }else if (acertijo2.correcto = true){
             score.puntaje += 1;
         }
     }
