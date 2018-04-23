@@ -3,6 +3,7 @@ package com.company.manager;
 import com.company.model.Acertijo1;
 import com.company.model.Acertijo2;
 import com.company.model.Acertijo3;
+import com.company.model.Acertijo4;
 
 import java.util.Scanner;
 
@@ -27,6 +28,14 @@ public class ManagerAcertijo {
         Scanner scanner = new Scanner(System.in);
         Acertijo3 acertijo3 = new Acertijo3();
         acertijo3.respuesta = scanner.nextLine();
+
+    }
+
+    public void escaner4() {
+
+        Scanner scanner = new Scanner(System.in);
+        Acertijo4 acertijo4 = new Acertijo4();
+        acertijo4.respuesta = scanner.nextLine();
 
     }
 }

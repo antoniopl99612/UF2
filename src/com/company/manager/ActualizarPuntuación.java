@@ -1,9 +1,6 @@
 package com.company.manager;
 
-import com.company.model.Acertijo1;
-import com.company.model.Acertijo2;
-import com.company.model.Acertijo3;
-import com.company.model.Score;
+import com.company.model.*;
 
 public class ActualizarPuntuación {
     Score score = new Score();
@@ -29,6 +26,14 @@ public class ActualizarPuntuación {
         if (acertijo3.correcto = false){
             score.puntaje -= 1;
         }else if (acertijo3.correcto = true){
+            score.puntaje += 1;
+        }
+    }
+    public void actualizarNivel4(){
+        Acertijo4 acertijo4 = new Acertijo4();
+        if (acertijo4.correcto = false){
+            score.puntaje -= 1;
+        }else if (acertijo4.correcto = true){
             score.puntaje += 1;
         }
     }

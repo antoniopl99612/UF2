@@ -19,6 +19,8 @@ public class Main {
         ActualizarPuntuación actualizarPuntuación = new ActualizarPuntuación();
         ViewNivel3 viewNivel3 = new ViewNivel3();
         Nivel3 nivel3 = new Nivel3();
+        Nivel4 nivel4 = new Nivel4();
+        ViewNivel4 viewNivel4 = new ViewNivel4();
 
         mostrarPuntuación.scoreActual(); //muestra la score actual para el usuario registrado en el juego Acertijo
 
@@ -41,5 +43,12 @@ public class Main {
         nivel3.cierto();
         actualizarPuntuación.actualizarNivel3();
         pasarNivel.comprobar();
+
+        viewNivel4.mostrar();
+        managerAcertijo.escaner4();
+        nivel4.cierto();
+        actualizarPuntuación.actualizarNivel4();
+        pasarNivel.comprobar();
+
     }
 }
