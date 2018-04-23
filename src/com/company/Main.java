@@ -1,10 +1,7 @@
 package com.company;
 
 import com.company.manager.*;
-import com.company.view.MostrarPuntuación;
-import com.company.view.ViewNivel1;
-import com.company.view.ViewNivel2;
-import com.company.view.ViewTitulo;
+import com.company.view.*;
 
 public class Main {
 
@@ -20,23 +17,29 @@ public class Main {
         Nivel2 nivel2 = new Nivel2();
         MostrarPuntuación mostrarPuntuación = new MostrarPuntuación();
         ActualizarPuntuación actualizarPuntuación = new ActualizarPuntuación();
+        ViewNivel3 viewNivel3 = new ViewNivel3();
+        Nivel3 nivel3 = new Nivel3();
 
         mostrarPuntuación.scoreActual(); //muestra la score actual para el usuario registrado en el juego Acertijo
 
         viewTitulo.mostrar();
+
         viewNivel1.mostrar();
         managerAcertijo.escaner1();
         nivel1.cierto();
-        pasarNivel.comprobar();
         actualizarPuntuación.actualizarNivel1();
+        pasarNivel.comprobar();
 
-        viewTitulo.mostrar();
         viewNivel2.mostrar();
         managerAcertijo.escaner2();
         nivel2.cierto();
-        pasarNivel.comprobar();
         actualizarPuntuación.actualizarNivel2();
+        pasarNivel.comprobar();
 
-
+        viewNivel3.mostrar();
+        managerAcertijo.escaner3();
+        nivel3.cierto();
+        actualizarPuntuación.actualizarNivel3();
+        pasarNivel.comprobar();
     }
 }

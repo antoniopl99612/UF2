@@ -1,6 +1,6 @@
 package com.company.manager;
 
-import com.company.model.Acertijo1;
+
 import com.company.model.Score;
 import com.company.view.FinDelJuego;
 import com.company.view.MostrarPuntuación;
