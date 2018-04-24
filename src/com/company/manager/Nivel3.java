@@ -1,6 +1,5 @@
 package com.company.manager;
 
-import com.company.model.Acertijo2;
 import com.company.model.Acertijo3;
 import com.company.view.ErrorRespuesta;
 

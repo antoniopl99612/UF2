@@ -4,6 +4,7 @@ import com.company.model.Acertijo2;
 import com.company.view.ErrorRespuesta;
 
 public class Nivel2 {
+
     public void cierto(){
         Acertijo2 acertijo2 = new Acertijo2();
         ErrorRespuesta errorRespuesta = new ErrorRespuesta();
