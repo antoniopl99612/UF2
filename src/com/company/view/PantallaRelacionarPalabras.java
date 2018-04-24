@@ -6,15 +6,15 @@ import com.company.model.Nivel;
 
 import java.util.Scanner;
 
-public class PantallaRelacionarPalabras {
+public class  PantallaRelacionarPalabras {
 
     public void iniciar(ManagerRelacionar managerRelacionar) {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("----------------------");
-        System.out.println("     RELACIONA        ");
-        System.out.println("----------------------");
+        System.out.println("--------------------------------");
+        System.out.println("     JUEGO DE RELACIONAR        ");
+        System.out.println("--------------------------------");
 
 
         Nivel[] elnivel = managerRelacionar.obtenerNiveles();
