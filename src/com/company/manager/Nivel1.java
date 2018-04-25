@@ -4,7 +4,6 @@ import com.company.model.Acertijo1;
 import com.company.view.ErrorRespuesta;
 
 public class Nivel1 {
-
     public void cierto(){
         Acertijo1 acertijo1 = new Acertijo1();
         ErrorRespuesta errorRespuesta = new ErrorRespuesta();
@@ -23,6 +22,8 @@ public class Nivel1 {
 
         }else {
             errorRespuesta.warning();
+            ManagerAcertijo managerAcertijo = new ManagerAcertijo();
+            managerAcertijo.escaner1();
             cierto();
         }
     }

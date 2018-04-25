@@ -22,6 +22,8 @@ public class Nivel3 {
 
         }else {
             errorRespuesta.warning();
+            ManagerAcertijo managerAcertijo = new ManagerAcertijo();
+            managerAcertijo.escaner3();
             cierto();
         }
     }

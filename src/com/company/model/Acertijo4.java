@@ -2,9 +2,9 @@ package com.company.model;
 
 public class Acertijo4 {
     public String pregunta;
-    public String respuesta;
-    public String solución = "a";
-    public String incorrecto1 = "c";
-    public String incorrecto2 = "b";
-    public boolean correcto;
+    public static String respuesta;
+    public static String solución = "a";
+    public static String incorrecto1 = "c";
+    public static String incorrecto2 = "b";
+    public static boolean correcto;
 }

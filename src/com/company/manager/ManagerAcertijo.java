@@ -15,6 +15,7 @@ public class ManagerAcertijo {
         Acertijo1 acertijo1 = new Acertijo1();
         acertijo1.respuesta = scanner.nextLine();
 
+
     }
     public void escaner2() {
 
