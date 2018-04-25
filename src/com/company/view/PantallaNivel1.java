@@ -11,10 +11,10 @@ public class PantallaNivel1 {
     public void mostrarN1() {
 
        Menu menu = new Menu();
+       Palabras palabras = new Palabras();
        menu.mostrarTitulo();
        menu.mostrarDescripcion();
-
-       Palabras palabras = new Palabras();
+       menu.mostrarMenu();
        palabras.mostrarPalabras();
 
 
