@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("------------------------------------------------------\n" +
+                "           BIENVENIDO AL JUEGO: BRAINTRAINING              \n"+
+                "------------------------------------------------------\n");
         System.out.println("¿Que juego quieres jugar?\n" +
                 "a) Acertijos");
         Scanner scanner = new Scanner(System.in);
