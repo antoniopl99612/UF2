@@ -1,7 +1,6 @@
 package com.company.model;
 
 public class Acertijo1 {
-    public String pregunta;
     public static String respuesta;
     public static String solución = "b";
     public static boolean correcto;

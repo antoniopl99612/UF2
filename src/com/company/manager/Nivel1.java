@@ -9,15 +9,15 @@ public class Nivel1 {
         ErrorRespuesta errorRespuesta = new ErrorRespuesta();
 
         if (acertijo1.respuesta.equals(acertijo1.incorrecto1)){
-            System.out.println("Incorrecto");
+            System.out.println("\nIncorrecto");
             acertijo1.correcto = false;
 
         }else if (acertijo1.respuesta.equals(acertijo1.incorrecto2)) {
-            System.out.println("Incorrecto");
+            System.out.println("\nIncorrecto");
             acertijo1.correcto = false;
 
         }else if (acertijo1.respuesta.equals(acertijo1.solución)) {
-            System.out.println("¡Correcto!");
+            System.out.println("\n¡Correcto!");
             acertijo1.correcto = true;
 
         }else {
