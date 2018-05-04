@@ -40,8 +40,7 @@ public class ManagerPalabra {
         return palabraDesordenada;
     }
 
-    public comprobarOrden (){
-        if (r)
 
-    }
+
 }
+
