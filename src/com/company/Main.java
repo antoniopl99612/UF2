@@ -1,11 +1,23 @@
 package com.company;
 
+import java.util.Scanner;
+
 import com.company.manager.*;
 import com.company.view.*;
 
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("------------------------------------------------------\n" +
+                "           BIENVENIDO AL JUEGO: BRAINTRAINING              \n"+
+                "------------------------------------------------------\n");
+        System.out.println("¿Que juego quieres jugar?\n" +
+                "a) Acertijos");
+        Scanner scanner = new Scanner(System.in);
+        String respuesta = scanner.nextLine();
+        if (respuesta == "a"){
+            ;
+        }
 	// write your code here
 
         ViewTitulo viewTitulo = new ViewTitulo();
