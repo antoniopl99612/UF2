@@ -21,9 +21,9 @@ public class MenuPrincipal {
             new AcertijoMain().show();
         }else if (respuesta.equals("b")){
             new OrdenaLetrasMain().show();
-        }else if (respuesta == "c"){
+        }else if (respuesta.equals("c")){
             ;
-        }else if (respuesta == "d"){
+        }else if (respuesta.equals("d")){
             ;
         }else {
             System.out.println("Letra incorrecta");
