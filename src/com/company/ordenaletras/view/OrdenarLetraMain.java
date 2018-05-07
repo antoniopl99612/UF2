@@ -1,16 +1,13 @@
-package com.company;
+package com.company.ordenaletras.view;
 
-import com.company.View.Menu;
-import com.company.View.MenuContinuarNivel;
-import com.company.View.PantallaElegirNivel;
-import com.company.View.PantallaNivel1;
 
-public class Main {
 
-    public static void main(String[] args) {
+public class OrdenarLetraMain  {
+
+    public static void show(){
         PantallaElegirNivel pantallaElegirNivel = new PantallaElegirNivel();
         pantallaElegirNivel.mostrar();
-
-
     }
+
+
 }

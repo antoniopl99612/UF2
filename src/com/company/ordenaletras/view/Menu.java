@@ -1,4 +1,4 @@
-package com.company.View;
+package com.company.ordenaletras.view;
 import java.util.Scanner;
 public class Menu {
     public void mostrarTitulo(){

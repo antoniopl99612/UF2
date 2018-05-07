@@ -1,4 +1,4 @@
-package com.company.View;
+package com.company.ordenaletras.view;
 
 public class PantallaElegirNivel {
     public void mostrar() {
@@ -16,8 +16,8 @@ public class PantallaElegirNivel {
             pantallaNivel1.mostrarPalabra3();
 
         }else if ("b".equals(opcion)) {
-                PantallaNivel2 pantallaNivel2 = new PantallaNivel2();
-                pantallaNivel2.mostrar();
+            PantallaNivel2 pantallaNivel2 = new PantallaNivel2();
+            pantallaNivel2.mostrar();
 
         }else if ("c".equals(opcion)) {
             PantallaNivel3 pantallaNivel3 = new PantallaNivel3();
@@ -28,3 +28,4 @@ public class PantallaElegirNivel {
         }
     }
 }
+

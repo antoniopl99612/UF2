@@ -2,7 +2,7 @@ package com.company.main.view;
 
 import com.company.RelacionaPalabras.view.MainRelaciona;
 import com.company.acertijo.view.AcertijoMain;
-import com.company.ordenaletras.view.OrdenaLetrasMain;
+import com.company.ordenaletras.view.OrdenarLetraMain;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class MenuPrincipal {
         if (respuesta.equals("a")){
             new AcertijoMain().show();
         }else if (respuesta.equals("b")){
-            new OrdenaLetrasMain().show();
+            new OrdenarLetraMain().show();
         }else if (respuesta.equals("c")){
             new MainRelaciona().show();
         }else if (respuesta.equals("d")){

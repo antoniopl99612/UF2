@@ -1,7 +1,7 @@
 package com.company.ordenaletras.manager;
 import java.util.Random;
 
-public class ManagerPalabras {
+public class ManagerPalabra {
     String valor;
     String[][] valorN1 = {{"fresa", "ordenador", "calle", "nombre", "movil", "coche"},
             {"torre", "correo", "camino", "nivel", "musica", "almuerzo"},

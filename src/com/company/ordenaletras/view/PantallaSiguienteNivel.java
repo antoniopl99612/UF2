@@ -1,4 +1,4 @@
-package com.company.View;
+package com.company.ordenaletras.view;
 
 public class PantallaSiguienteNivel {
     public void mostrar() {
