@@ -1,5 +1,6 @@
 package com.company.main.view;
 
+import com.company.RelacionaPalabras.view.MainRelaciona;
 import com.company.acertijo.view.AcertijoMain;
 import com.company.ordenaletras.view.OrdenaLetrasMain;
 
@@ -22,7 +23,7 @@ public class MenuPrincipal {
         }else if (respuesta.equals("b")){
             new OrdenaLetrasMain().show();
         }else if (respuesta.equals("c")){
-            ;
+            new MainRelaciona().show();
         }else if (respuesta.equals("d")){
             ;
         }else {
