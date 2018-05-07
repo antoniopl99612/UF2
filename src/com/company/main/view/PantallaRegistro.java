@@ -56,12 +56,8 @@ public class PantallaRegistro {
 
         System.out.println("Nombre:" + nombre);
         System.out.println("Apellido:" + apellido);
-        System.out.println("Edad:" + edad);
         System.out.println("Email:" + email);
-        System.out.println("Mayor de edad:" + mayoredad);
-        System.out.println("Poblacion:" + poblacion);
         System.out.println("Nombre de usuario:" + nombreusuario);
-        System.out.println("Password:" + contraseña);
 
 
     }

@@ -1,24 +1,25 @@
 package com.company.acertijo.manager;
 
 import com.company.acertijo.model.Acertijo4;
+import com.company.acertijo.model.Score;
 import com.company.acertijo.view.ErrorRespuesta;
 
 public class Nivel4 {
     public void cierto(){
         Acertijo4 acertijo4 = new Acertijo4();
         ErrorRespuesta errorRespuesta = new ErrorRespuesta();
-
+        Score score = new Score();
         if (acertijo4.respuesta.equals(acertijo4.incorrecto1)){
             System.out.println("\nIncorrecto");
-            acertijo4.correcto = false;
+
 
         }else if (acertijo4.respuesta.equals(acertijo4.solución)) {
             System.out.println("\n¡Correcto!");
-            acertijo4.correcto = true;
+            score.puntaje += 1;
 
         }else if (acertijo4.respuesta.equals(acertijo4.incorrecto2)) {
             System.out.println("\nIncorrecto");
-            acertijo4.correcto = false;
+
 
         }else {
             errorRespuesta.warning();

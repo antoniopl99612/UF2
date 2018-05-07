@@ -27,12 +27,12 @@ public class  PantallaRelacionarPalabras {
             System.out.println("Respuesta:");
             String respuesta = scanner.nextLine().toUpperCase();
             if(respuesta.equals(elnivel[i].respuesta)){
-                System.out.println("COOOOOOORRECTO!!");
-                System.out.println("PASAS AL SIGUIENTE NIVEL!!");
+                System.out.println("\nCOOOOOOORRECTO!!");
+                System.out.println("PASAS AL SIGUIENTE NIVEL!!\n");
                 nivel.puntuacion += 1;
             } else {
-                System.out.println("ERROOOOOOOOOOOOOOR!!");
-                System.out.println("INTENTALO DE NUEVO!!");
+                System.out.println("\nERROOOOOOOOOOOOOOR!!");
+                System.out.println("INTENTALO DE NUEVO!!\n");
 
             }
         }
