@@ -4,7 +4,7 @@ import com.company.acertijo.model.Score;
 
 public class Mostrarpuntuacion {
     public void mostrar(){
-        System.out.println("- - - PUNTUACIÓN - - -");
+        System.out.println("\n- - - PUNTUACIÓN - - -");
         Score score = new Score();
         System.out.println("Acertijos: " + score.puntaje);
         System.out.println("Ordenar letras:");
