@@ -14,8 +14,8 @@ public class MenuPrincipal {
         System.out.println("¿Que juego quieres jugar?\n" +
                 "a) Acertijos\n" +
                 "b) Ordenar letras\n" +
-                "c) Capitales\n" +
-                "d) Relaciona");
+                "c) Relaciona\n" +
+                "d) Capitales");
         Scanner scanner = new Scanner(System.in);
         String respuesta = scanner.nextLine();
         if (respuesta.equals("a")){

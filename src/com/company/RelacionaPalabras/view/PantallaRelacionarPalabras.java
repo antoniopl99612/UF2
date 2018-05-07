@@ -17,7 +17,7 @@ public class  PantallaRelacionarPalabras {
         System.out.println("     JUEGO DE RELACIONAR        ");
         System.out.println("--------------------------------");
 
-
+        Nivel nivel = new Nivel();
         Nivel[] elnivel = managerRelacionar.obtenerNiveles();
 
         System.out.println("Relaciona las sigüientes palabras con un concepto:");
@@ -29,6 +29,7 @@ public class  PantallaRelacionarPalabras {
             if(respuesta.equals(elnivel[i].respuesta)){
                 System.out.println("COOOOOOORRECTO!!");
                 System.out.println("PASAS AL SIGUIENTE NIVEL!!");
+                nivel.puntuacion += 1;
             } else {
                 System.out.println("ERROOOOOOOOOOOOOOR!!");
                 System.out.println("INTENTALO DE NUEVO!!");
