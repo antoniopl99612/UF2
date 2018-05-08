@@ -1,10 +1,7 @@
 package com.company;
 
 import com.company.main.manager.ManagerUsuarios;
-import com.company.main.view.MenuPrincipal;
-import com.company.main.view.Mostrarpuntuacion;
-import com.company.main.view.PantallaAcceder;
-import com.company.main.view.PantallaRegistro;
+import com.company.main.view.*;
 
 import java.awt.*;
 import java.util.Scanner;
@@ -35,6 +32,7 @@ while (!respuesta.equals("e")) {
     } else if (respuesta.equals("b")) {
         pantallaAcceder.iniciar(managerUsuarios);
     } else if (respuesta.equals("c")) {
+        new Widgets().printTitle();
         new MenuPrincipal().show();
     } else if (respuesta.equals("p")) {
             mostrarpuntuacion.mostrar();
