@@ -6,6 +6,7 @@ import com.company.main.view.Mostrarpuntuacion;
 import com.company.main.view.PantallaAcceder;
 import com.company.main.view.PantallaRegistro;
 
+import java.awt.*;
 import java.util.Scanner;
 
 public class Main {
@@ -18,7 +19,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String respuesta = "";
 while (!respuesta.equals("e")) {
-    System.out.println("\na) Registrarse\n" + "b) Iniciar sesión\n" + "c) Jugar\n" + "e) Salir\n" + "p) Mostrar puntuación\n");
+    Font negrita = new Font ("Arial",Font.BOLD,24);
+    System.out.println("\033[0;1m" +"--------------------------------------------");
+    System.out.println("\033[0;1m" + "|               MENU PRINCIPAL             |");
+    System.out.println("--------------------------------------------");
+    System.out.println("\n\033[32ma) \uD83D\uDCDD Registrarse\n\b" +
+            "\033[35mb) \uD83D\uDCBB Iniciar sesión\n\b" +
+            "\033[33mc) \uD83D\uDD79 Jugar\n\b" +
+            "\033[31me) \uD83D\uDD1C\uD83D\uDEAA Salir\n\b" +
+            "\033[36mp) \uD83D\uDCAF Mostrar puntuación\n\b");
     respuesta = scanner.nextLine();
 
     if (respuesta.equals("a")) {

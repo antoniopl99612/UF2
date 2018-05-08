@@ -13,14 +13,14 @@ public class PantallaAcceder {
         System.out.println("");
         System.out.println("");
 
-        System.out.println("----------------------");
-        System.out.println("      ACCESO        ");
-        System.out.println("----------------------");
+        System.out.println("\033[0;1m" +"\033[35m--------------------------------------------");
+        System.out.println("\033[0;1m" +"\033[35m|                    ACCESO                |");
+        System.out.println("\033[0;1m" +"\033[35m--------------------------------------------");
 
-        System.out.println("Nombre Usuario:");
+        System.out.println("\b\033[35mNombre Usuario:");
         String nombreusuario = scanner.nextLine();
 
-        System.out.println("Password:");
+        System.out.println("\033[35mPassword:");
         String contraseña = scanner.nextLine();
         while (!managerUsuarios.comprovarUsuario(nombreusuario, contraseña)) {
             if (managerUsuarios.comprovarUsuario(nombreusuario, contraseña)) {
@@ -28,15 +28,15 @@ public class PantallaAcceder {
                 System.out.println("");
                 System.out.println("");
 
-                System.out.println("--------------------------");
-                System.out.println("BIENVENIDO   " + nombreusuario);
-                System.out.println("--------------------------");
+                System.out.println("\033[35m--------------------------");
+                System.out.println("\033[35mBIENVENIDO   " + nombreusuario);
+                System.out.println("\033[35m--------------------------");
             } else {
-                System.out.println("-------------------------------------------");
-                System.out.println("ERROR!!! NOMBREUSUARIO/CONTRASEÑA INVALIDOS");
-                System.out.println("-------------------------------------------");
-                System.out.println("Nombre Usuario:");
-                System.out.println("Password:");
+                System.out.println("\033[35m-------------------------------------------");
+                System.out.println("\033[35mERROR!!! NOMBREUSUARIO/CONTRASEÑA INVALIDOS");
+                System.out.println("\033[35m-------------------------------------------");
+                System.out.println("\033[35mNombre Usuario:");
+                System.out.println("\033[35mPassword:");
             }
         }
     }

@@ -8,9 +8,8 @@ import java.util.Scanner;
 
 public class MenuPrincipal {
     public void show(){
-        System.out.println("------------------------------------------------------\n" +
-                "           BIENVENIDO AL JUEGO: BRAINTRAINING              \n"+
-                "------------------------------------------------------\n");
+
+
         System.out.println("¿Que juego quieres jugar?\n" +
                 "a) Acertijos\n" +
                 "b) Ordenar letras\n" +

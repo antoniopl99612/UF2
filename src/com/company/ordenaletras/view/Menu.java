@@ -1,10 +1,15 @@
 package com.company.ordenaletras.view;
+import com.company.main.view.Widgets;
+
 import java.util.Scanner;
 public class Menu {
     public void mostrarTitulo(){
-        System.out.println("\n++++++++++++_+++++++++++++++++++++++_+++++++++++++++++++++++_+++++++++++++++++++++++_+++++++++++");
-        System.out.println("\n                           ¡¡BIENVENIDO!! AL JUEGO ORDENA LAS LETRAS\n");
-        System.out.println("++++++++++++_+++++++++++++++++++++++_+++++++++++++++++++++++_+++++++++++++++++++++++_+++++++++++\n");
+//        System.out.println("\n\033[32m++++++++++++_+++++++++++++++++++++++_+++++++++++++++++++++++_+++++++++++++++++++++++_+++++++++++");
+//        System.out.println("\b                          ¡¡BIENVENIDO!! AL JUEGO ORDENA LAS LETRAS\b");
+//        System.out.println("++++++++++++_+++++++++++++++++++++++_+++++++++++++++++++++++_+++++++++++++++++++++++_+++++++++++\n");
+
+        Widgets widgets = new Widgets();
+        widgets.printTitle();
     }
 
     public void mostrarDescripcion() {
